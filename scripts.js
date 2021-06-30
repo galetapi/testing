@@ -1,7 +1,8 @@
-let num = parseInt( prompt('Introduce el rango del numero'));
+let m = parseInt( prompt('Introduce el numero inicial del rango'));
+let num = parseInt( prompt('Introduce el numero final del rango'));
 
 
-for (let i=2;i<num;i++) {
+for (let i=m;i<=num;i++) {
     // vamos a acumular en la variable perfecto la suma de divisores
     let perfecto=1;
   
@@ -13,7 +14,7 @@ for (let i=2;i<num;i++) {
     }
    //la suma calculada tiene que ser igual la variable perfecto
     if (i==perfecto){
-        document.write(`el numero es perfecto ${i}`+'</br>');
+        document.write(`los numeros perfectos entre el rango son: ${i}`+'</br>');
     }
 }
 //aviso o alerta para decir que el aplicativo ya acabo
