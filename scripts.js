@@ -1,7 +1,7 @@
 let num = parseInt( prompt('Introduce el rango del numero'));
 
 
-for (let i=2;i<num;i++) {
+for (let i=2;i<=num;i++) {
     // vamos a acumular en la variable perfecto la suma de divisores
     let perfecto=1;
   
